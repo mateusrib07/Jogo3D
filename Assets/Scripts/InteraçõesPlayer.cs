@@ -1,20 +1,27 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InteraçõesPlayer : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] GameObject House;
+   
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
     }
-    public void OnColision(Collider other)
+    private void OnColisionEnter(Collision other)
     {
+      if(other.gameObject.CompareTag("House") && Input.GetKey(KeyCode.E))
+        {
+            SceneManager.LoadScene(3);
+
+        }
         
     }
 }

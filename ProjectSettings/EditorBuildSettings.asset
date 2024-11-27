@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fase1.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/House.unity
+    guid: e2f859cfc78e5a54799ba3bbb4c7b840
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
