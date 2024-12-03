@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Floor
+  - House
+  - wall
+  - Door
+  - key
+  - Dungeon
+  - Coin
   layers:
   - Default
   - TransparentFX

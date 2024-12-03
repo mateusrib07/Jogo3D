@@ -12,7 +12,13 @@ EditorBuildSettings:
     path: "Assets/Scenes/Configura\xE7\xF5es.unity"
     guid: b2cffaa132a96734b805e80a4edb1cff
   - enabled: 1
+    path: Assets/Scenes/House.unity
+    guid: 4bea1c2624af65748ac2a005af1f9aee
+  - enabled: 1
     path: Assets/Scenes/Fase1.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Castle.unity
+    guid: 0c3fac51ace18c84ca46183bc0d2e9bf
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
