@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+<<<<<<< HEAD
 using TMPro;
 
 public class InteraçõesPlayer : MonoBehaviour
@@ -11,16 +12,24 @@ public class InteraçõesPlayer : MonoBehaviour
     TextMeshPro chave;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+=======
+
+public class InteraçõesPlayer : MonoBehaviour
+{
+    [SerializeField] GameObject House;
+   
+>>>>>>> 65cc080203e4027163bb02d0726edb69827efc72
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
     }
+<<<<<<< HEAD
     public void OnCollisionEnter(Collision other)
     {
         if(other.gameObject.CompareTag("House"))
@@ -48,5 +57,15 @@ public class InteraçõesPlayer : MonoBehaviour
         {
             SceneManager.LoadScene("castle");
         }
+=======
+    private void OnColisionEnter(Collision other)
+    {
+      if(other.gameObject.CompareTag("House") && Input.GetKey(KeyCode.E))
+        {
+            SceneManager.LoadScene(3);
+
+        }
+        
+>>>>>>> 65cc080203e4027163bb02d0726edb69827efc72
     }
 }

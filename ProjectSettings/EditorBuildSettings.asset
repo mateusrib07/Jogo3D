@@ -18,7 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Fase1.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Castle.unity
     guid: 0c3fac51ace18c84ca46183bc0d2e9bf
+=======
+    path: Assets/Scenes/House.unity
+    guid: e2f859cfc78e5a54799ba3bbb4c7b840
+>>>>>>> 65cc080203e4027163bb02d0726edb69827efc72
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

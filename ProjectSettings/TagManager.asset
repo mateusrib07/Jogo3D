@@ -6,11 +6,14 @@ TagManager:
   tags:
   - Floor
   - House
+<<<<<<< HEAD
   - wall
   - Door
   - key
   - Dungeon
   - Coin
+=======
+>>>>>>> 65cc080203e4027163bb02d0726edb69827efc72
   layers:
   - Default
   - TransparentFX
